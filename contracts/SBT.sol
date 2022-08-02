@@ -3,7 +3,7 @@ pragma solidity ^0.8.15;
 
 import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/utils/introspection/ERC165.sol";
-import "./interfaces/ISBT.sol";
+import "./ISBT.sol";
 
 abstract contract SBT is ERC165, ISBT {
     using Strings for uint256;
